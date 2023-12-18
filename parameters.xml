@@ -3,7 +3,7 @@
 <suite name="Suite"> <!-- @BeforeSuite-->
 <parameter name="browser" value="chrome"></parameter>
 <parameter name="url" value="https://www.amazon.in/"></parameter>
-  <test thread-count="5" name="Test"> <!-- @BeforeTest -->
+  <test thread-count="6" name="Test"> <!-- @BeforeTest -->
     <classes> <!-- BeforeClass -->
       <class name="com.testng.parameter.dataprovider.ParametersSample"/>
     </classes>
